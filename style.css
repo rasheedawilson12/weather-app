@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(116, 255, 217) 11.2%,
+    rgb(88, 200, 223) 91.1%
+  );
+}
+h1 {
+  text-align: right;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: right;
+}
+h5 {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 200px auto;
+  max-width: 600px;
+  background: white;
+  padding: 50px 30px 100px;
+  border-radius: 10px;
+}
+
+.weekly-forcast {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.search-bar {
+  position: relative;
+  width: 55%;
+  margin-right: 15px;
+  border-radius: 15px;
+}
+.search-button {
+  position: relative;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 0 8px 0;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  color: white;
+}
+
+.current-location {
+  position: relative;
+  border-radius: 15px;
+  padding: 0 8px 0;
+  background: linear-gradient(
+    75.7deg,
+    rgb(34, 126, 34) 3.8%,
+    rgb(99, 162, 17) 87.1%
+  );
+  color: white;
+}
+.city {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.current-weather {
+  position: relative;
+  right: 35px;
+}
+.degrees {
+  position: relative;
+  text-decoration: none;
+  left: 255px;
+  bottom: 45px;
+}
